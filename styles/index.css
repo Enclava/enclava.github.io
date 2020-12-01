@@ -1,0 +1,63 @@
+body {
+    min-width: 400px;
+}
+
+.banner-img {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.35),
+        rgba(0, 0, 0, 0.35)
+    ),
+    url('../images/banner-img.png');
+    background-size: cover;
+    background-position: 0% 40%;
+}
+
+.hexagon-container{
+    min-width: 230px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    display: inline-block; /* Here !!! */
+    position: relative;
+    margin: 0;
+    max-width: 512px;
+}
+
+figure img { max-width: 100%; }
+
+.figcaption{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    border: 0px solid red;
+    left: 50%;
+    margin-left: -25%;
+    bottom: 50%;
+    margin-bottom: -22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.title{
+    text-shadow: 0 2px 0 black;
+}
+
+.shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+
+
+
+
