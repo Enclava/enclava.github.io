@@ -62,6 +62,7 @@ figure img {
 
 .figcaption .fas {
     font-size: 3rem;
+    transition: 200ms;
 }
 
 .title{
