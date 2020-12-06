@@ -1,5 +1,5 @@
 body {
-    min-width: 400px;
+    min-width: 320px;
 }
 
 a{
@@ -76,7 +76,7 @@ figure img {
 
 .footer-col-left{
     margin: 5px;
-    padding-bottom: 10px;
+    padding: 5px;
 }
 
 .footer-col-right{
@@ -86,6 +86,10 @@ figure img {
 .footer-icon {
     width: 32px;
     margin: 0px 10px;
+}
+
+footer .row {
+    align-items: center;
 }
 
 @media screen and (min-width: 768px) {
